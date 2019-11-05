@@ -2,7 +2,9 @@
 body {
     background-image: url("/images/anonymous-server-background.jpg");
     height: 100vh;
+    width: 100vw;
     background-color: grey;
+
 }
 .page {
     /*central container*/
@@ -13,6 +15,10 @@ body {
 
 
 /* HEADER */
+.mainHidden{
+    display: none;
+}
+
 .page__header {
     text-align: right;
 }
@@ -24,18 +30,23 @@ body {
     height: 50px;
     width: 50px;
     border-radius: 20%;
+    margin-top: 5%;
 }
 
 
 
 
 /* MENU */
+.infoHidden {
+    /*display: none;*/
+}
 .nav {
 }
 .nav__items {
     list-style: none;
     text-align: center;
     padding: 0;
+    margin-top: 50%;
 }
 .nav__item {
 }
@@ -53,6 +64,8 @@ body {
     height: 50px;
     width: 50px;
     border-radius: 20%;
+    position: absolute;
+    top: 5%;
 }
 
 
@@ -68,14 +81,22 @@ body {
     text-transform: uppercase;
     color: white;
     width: 60%;
+    position: absolute;
+    top: 45%;
 }
 
 
 
 
 /* FOOTER */
-.page__footer {}
-.page__footer {}
+.page__footer {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 1%;
+}
+.page__footer {
+}
 .page__footer-copy {
     font-family: arial, serif;
     background-color: lightgrey;
