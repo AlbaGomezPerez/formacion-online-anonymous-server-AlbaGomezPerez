@@ -1,6 +1,9 @@
 /* COMMON */
 body {}
-.page {}
+.page {
+    background-image: url("/images/anonymous-server-background.jpg");
+    height: 100vh;
+}
 
 
 
@@ -25,7 +28,9 @@ body {}
 /* MAIN */
 .page__main {}
 .page__wrapper {}
-.page__main-title {}
+.page__main-title {
+    font-family: 'Roboto Slab', serif;
+}
 
 
 
@@ -33,4 +38,6 @@ body {}
 /* FOOTER */
 .page__footer {}
 .page__footer {}
-.page__footer-copy {}
+.page__footer-copy {
+    font-family: arial, serif;
+}
