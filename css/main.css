@@ -1,9 +1,10 @@
 /* COMMON */
 body {
-    background-image: url("/images/anonymous-server-background.jpg");
+    background-image: url("../images/anonymous-server-background.jpg");
+    -webkit-background-size: cover;
     height: 100vh;
     width: 100vw;
-    background-color: grey;
+
 
 }
 .page {
@@ -16,7 +17,7 @@ body {
 
 /* HEADER */
 .mainHidden{
-    display: none;
+    /*display: none;*/
 }
 
 .page__header {
@@ -38,7 +39,7 @@ body {
 
 /* MENU */
 .infoHidden {
-    /*display: none;*/
+    display: none;
 }
 .nav {
 }
