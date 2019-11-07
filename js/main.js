@@ -6,8 +6,11 @@
 const menuButton = document.querySelector('.nav-trigger');
 const infoMenu = document.querySelector('.nav');
 const cancelButton = document.querySelector('.nav-close');
+const nav = document.querySelector('.nav');
 console.log(menuButton);
 console.log(infoMenu);
+
+nav.classList.add('infoHidden');
 
 function openMenu() {
     console.log('hola');
