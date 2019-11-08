@@ -3,6 +3,7 @@
 //Al hacer click en menú, la función pone la clase "mainHidden" y quita la clase "infoHidden"
 'use strict';
 
+const page = document.querySelector('.page');
 const menuButton = document.querySelector('.nav-trigger');
 const infoMenu = document.querySelector('.nav');
 const cancelButton = document.querySelector('.nav-close');
@@ -19,7 +20,6 @@ function openMenu() {
     } else {
         infoMenu.classList.add('infoHidden');
     }
-
 }
 
 menuButton.addEventListener('click', openMenu);
