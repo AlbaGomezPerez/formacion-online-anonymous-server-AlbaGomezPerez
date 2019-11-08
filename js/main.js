@@ -13,9 +13,10 @@ console.log(infoMenu);
 
 nav.classList.add('infoHidden');
 
+
 function openMenu() {
     console.log('hola');
-    if (infoMenu.classList.contains('infoHidden')) {
+    if (nav.classList.contains('infoHidden')) {
         infoMenu.classList.remove('infoHidden');
     } else {
         infoMenu.classList.add('infoHidden');
