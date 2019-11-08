@@ -5,7 +5,8 @@ body {
 
 
 .page {
-    background-image: url("../images/anonymous-server-background.jpg");
+    background-image: url("../images/anonymous-server-background.jpg"), linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.35) 50%);
+    background-position: top;
     -webkit-background-size: cover;
     background-repeat: space;
     height: 100vh;
@@ -30,14 +31,18 @@ body {
 }
 .nav-trigger {
     color: white;
-    background-color: #402929;
+    background-color: #33302e;
+    background-image: url("../images/ico-menu.svg");
+    -webkit-background-size: 30px;
+    background-repeat: space;
+    font-size: 0;
     opacity: 0.92;
     border: none;
     height: 50px;
     width: 50px;
     border-radius: 20%;
-    margin-top: 5%;
-    margin-right: 10%;
+    margin-top: 8%;
+    margin-right: 8%;
 }
 
 
@@ -95,7 +100,7 @@ body {
     margin: 0;
     margin-left: 10%;
     position: absolute;
-    top: 50%;
+    top: 54%;
 }
 
 
@@ -110,18 +115,18 @@ body {
 }
 .page__footer {
     position: relative;
-    bottom: -80%;
+    bottom: -76%;
     margin-left: 10%;
     margin-right: 10%;
-
-
 }
+
 .page__footer-copy {
     font-family: arial, serif;
     text-align: center;
     height: 25px;
     padding-top: 3%;
-    background-color: lightgrey;
+    background-color: #737170;
+    color: white;
     opacity: .50;
     border-radius: 8px;
 }
