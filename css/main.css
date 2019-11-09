@@ -64,10 +64,11 @@ body {
     list-style: none;
     text-align: center;
     position: relative;
-    top: 20%;
+    top: 25%;
     padding: 0;
     margin-right: 16%;
     margin-left: 16%;
+    z-index: 3;
 
     /*margin-top: 50%;*/
 }
@@ -78,17 +79,26 @@ body {
     color: white;
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
+    line-height: 45px;
 }
 .nav-close {
     color: white;
-    background-color: #402929;
+    background-color: black;
+    background-image: url("../images/ico-close.svg");
+    -webkit-background-size: 30px;
+    background-repeat: space;
+    font-size: 0;
     opacity: 0.92;
     border: none;
     height: 50px;
     width: 50px;
     border-radius: 20%;
-    /*position: absolute;*/
-    /*top: 5%;*/
+    margin-top: 8%;
+    margin-right: 8%;
+    z-index: 2;
+    position: relative;
+    top: -322px;
+
 }
 
 
@@ -107,7 +117,7 @@ body {
     margin: 0;
     margin-left: 10%;
     position: absolute;
-    top: 54%;
+    top: 52%;
 }
 
 
@@ -122,7 +132,7 @@ body {
 }
 .page__footer {
     position: relative;
-    bottom: -76%;
+    bottom: -86%;
     margin-left: 10%;
     margin-right: 10%;
 }
