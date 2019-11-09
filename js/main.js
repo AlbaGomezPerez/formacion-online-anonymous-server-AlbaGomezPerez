@@ -8,8 +8,6 @@ const menuButton = document.querySelector('.nav-trigger');
 const infoMenu = document.querySelector('.nav');
 const cancelButton = document.querySelector('.nav-close');
 const nav = document.querySelector('.nav');
-console.log(menuButton);
-console.log(infoMenu);
 
 nav.classList.add('infoHidden');
 
@@ -18,22 +16,18 @@ function openMenu() {
     console.log('hola');
     if (nav.classList.contains('infoHidden')) {
         infoMenu.classList.remove('infoHidden');
-    } else {
-        infoMenu.classList.add('infoHidden');
     }
 }
 
+function openMainPage() {
+    console.log('segundo');
+    infoMenu.classList.add('infoHidden');
+}
+
 menuButton.addEventListener('click', openMenu);
+cancelButton.addEventListener('click', openMainPage);
 
 
 
 
-// const navTrigger  = document.getElementById("nav-trigger");
-// const nav = document.getElementById("nav");
-//
-// function openMenu(){
-//         ("nav").fadeToggle("slow");
-// };
-//
-// navTrigger.addEventListener('click', openMenu);
 
