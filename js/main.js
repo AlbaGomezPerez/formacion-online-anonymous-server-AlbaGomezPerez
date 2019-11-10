@@ -24,8 +24,15 @@ function openMainPage() {
     infoMenu.classList.add('infoHidden');
 }
 
+// function showNav(){
+//     infoMenu.classList.remove('infoHidden');
+//     menuButton.classList.add('infoHidden');
+// }
+
 menuButton.addEventListener('click', openMenu);
 cancelButton.addEventListener('click', openMainPage);
+// menuButton.addEventListener('click', showNav);
+
 
 
 
