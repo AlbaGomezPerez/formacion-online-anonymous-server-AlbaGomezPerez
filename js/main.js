@@ -7,15 +7,15 @@ const page = document.querySelector('.page');
 const menuButton = document.querySelector('.nav-trigger');
 const infoMenu = document.querySelector('.nav');
 const cancelButton = document.querySelector('.nav-close');
-const nav = document.querySelector('.nav');
 
-nav.classList.add('infoHidden');
+infoMenu.classList.add('infoHidden');
 
 
 function openMenu() {
     console.log('hola');
-    if (nav.classList.contains('infoHidden')) {
+    if (infoMenu.classList.contains('infoHidden')) {
         infoMenu.classList.remove('infoHidden');
+        // infoMenu.classList.add('slide');
     }
 }
 

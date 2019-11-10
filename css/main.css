@@ -49,6 +49,13 @@ body {
     transition: transform 2s;
 }
 
+@media all and (min-width:768px) {
+    .nav-trigger {
+        margin-top: 4%;
+        margin-right: 4%;
+    }
+}
+
 
 
 
@@ -70,6 +77,22 @@ body {
     /*animation-delay: 2s;*/
 }
 
+@media all and (min-width:768px) {
+    .nav {
+        height: 1100px;
+        top: -100px;
+    }
+}
+
+.slide {
+    position: absolute;
+    left: -600px;
+    width: 600px;
+    height: 370px;
+    background: blue;
+    -webkit-animation: slide 0.5s
+}
+
 .nav__items {
     list-style: none;
     text-align: center;
@@ -79,11 +102,16 @@ body {
     margin-right: 16%;
     margin-left: 16%;
     z-index: 3;
-
     /*margin-top: 50%;*/
 }
-.nav__item {
+
+@media all and (min-width:768px) {
+    .nav__items {
+        top: 24%;
+    }
 }
+
+.nav__item {}
 .nav__link {
     text-decoration: none;
     color: white;
@@ -91,6 +119,14 @@ body {
     font-size: 30px;
     line-height: 45px;
 }
+
+@media all and (min-width:768px) {
+    .nav__link {
+        font-size: 45px;
+        line-height: 75px;
+    }
+}
+
 .nav-close {
     color: white;
     background-color: black;
@@ -110,11 +146,18 @@ body {
     top: -322px;
 }
 
-.nav-close:hover {
-    transform: scale(1.2) rotate(135deg);
-    transition: transform 2s;
+@media all and (min-width:768px) {
+    .nav-close {
+        top: -460px;
+        margin-top: 4%;
+        margin-right: 4%;
+    }
 }
 
+.nav-close:hover {
+    transform: scale(1.2) rotate(135deg);
+    transition: transform 1s;
+}
 
 
 
@@ -134,6 +177,11 @@ body {
     top: 52%;
 }
 
+@media all and (min-width:768px) {
+    .page__main-title {
+        font-size: 60px;
+    }
+}
 
 
 
@@ -151,6 +199,12 @@ body {
     margin-right: 10%;
 }
 
+@media all and (min-width:768px) {
+    .page__footer {
+        bottom: -92%;
+    }
+}
+
 .page__footer-copy {
     font-family: arial, serif;
     text-align: center;
@@ -162,6 +216,12 @@ body {
     border-radius: 8px;
 }
 
+@media all and (min-width:768px) {
+    .page__footer-copy {
+        font-size: 16px;
+        padding-top: 1%;
+    }
+}
 
 /*.central-container{*/
 /*    margin: 0 15px;*/
