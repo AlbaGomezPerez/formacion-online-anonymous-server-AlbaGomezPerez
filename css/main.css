@@ -44,6 +44,11 @@ body {
     margin-right: 8%;
 }
 
+.nav-trigger:hover {
+    transform: scale(1.2) rotate(135deg);
+    transition: transform 2s;
+}
+
 
 
 
@@ -103,7 +108,11 @@ body {
     z-index: 2;
     position: relative;
     top: -322px;
+}
 
+.nav-close:hover {
+    transform: scale(1.2) rotate(135deg);
+    transition: transform 2s;
 }
 
 
