@@ -88,6 +88,15 @@ body {
     position: relative;
     top: -110px;
     z-index: 1;
+    animation: fadeIn 1.5s;
+    animation-fill-mode: backwards;
+}
+
+/*First time the opacity is 0, when the menu appears the opacity changes to 1.
+ This causes a progressive transition*/
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 @media all and (min-width:768px) {
@@ -196,8 +205,7 @@ body {
 
 
 /* MAIN */
-.page__main {
-}
+.page__main {}
 .page__wrapper {}
 .page__main-title {
     font-family: 'Roboto Slab', serif;
