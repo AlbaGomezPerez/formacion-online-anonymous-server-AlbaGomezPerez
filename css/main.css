@@ -22,6 +22,14 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+@media all and (min-width:768px) {
+    .page__header {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
 .nav-trigger {
     color: white;
     background-color: #33302e;
@@ -46,14 +54,12 @@ body {
 @media all and (min-width:768px) {
     .nav-trigger {
         margin-top: 4%;
-        margin-right: 4%;
     }
 }
 
 @media all and (min-width:1440px) {
     .nav-trigger {
         margin-top: 2%;
-        margin-right: 2%;
     }
 }
 
