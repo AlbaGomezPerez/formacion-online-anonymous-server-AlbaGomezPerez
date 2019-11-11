@@ -67,6 +67,7 @@ body {
 .infoHidden {
     display: none;
 }
+
 .nav {
     background-color: #402929;
     opacity: 0.92;
@@ -103,7 +104,6 @@ body {
     }
 }
 
-
 .nav__items {
     list-style: none;
     text-align: center;
@@ -113,7 +113,6 @@ body {
     margin-right: 16%;
     margin-left: 16%;
     z-index: 3;
-    /*margin-top: 50%;*/
 }
 
 @media all and (min-width:768px) {
@@ -128,13 +127,11 @@ body {
     }
 }
 
-.nav__item {
-}
+.nav__item {}
 
 .nav__item:hover {
     animation: palpitation 1.2s infinite;
     transform-origin: center;
-
 }
 
 @keyframes palpitation {
@@ -142,7 +139,6 @@ body {
     50% { transform: scale(1.2); }
     to { transform: translateY(-25px); }
 }
-
 
 .nav__link {
     text-decoration: none;
@@ -207,8 +203,6 @@ body {
     transition: transform 1s;
 }
 
-
-
 /* MAIN */
 .page__main {}
 .page__wrapper {}
@@ -235,7 +229,6 @@ body {
         font-size: 116px;
         margin-left: 16%;
         top: 54%;
-
     }
 }
 
