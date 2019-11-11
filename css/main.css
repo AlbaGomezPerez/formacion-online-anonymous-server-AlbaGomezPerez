@@ -19,6 +19,8 @@ body {
 .page__header {
     text-align: right;
     height: 100vh;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .nav-trigger {
     color: white;
@@ -34,7 +36,6 @@ body {
     width: 50px;
     border-radius: 20%;
     margin-top: 8%;
-    margin-right: 8%;
 }
 
 .nav-trigger:hover {
@@ -62,11 +63,12 @@ body {
 }
 .nav {
     background-color: #402929;
-    opacity: 0.95;
+    opacity: 0.92;
     height: 590px;
     width: 100vw;
     position: relative;
     top: -110px;
+    right: 12%;
     z-index: 1;
     animation: fadeIn 1.5s;
     animation-fill-mode: backwards;
@@ -83,6 +85,7 @@ body {
     .nav {
         height: 1100px;
         top: -100px;
+        right: 4%;
     }
 }
 
@@ -90,6 +93,7 @@ body {
     .nav {
         height: 1100px;
         top: -300px;
+        right: 2%;
     }
 }
 
@@ -209,9 +213,9 @@ body {
     color: white;
     width: 30px;
     margin: 0;
-    margin-left: 10%;
+    margin-left: 8%;
     position: absolute;
-    top: 52%;
+    top: 50%;
 }
 
 @media all and (min-width:768px) {
